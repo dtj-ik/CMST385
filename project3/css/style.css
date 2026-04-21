@@ -32,7 +32,6 @@ p {
     font-family: "Outfit", Helvetica, Arial, sans-serif ;
 }
 
-/*-----------------------------SOCIAL ICONS START---------------------------------*/
 .socialcenter {
     display: flex;
     justify-content: center;
@@ -57,13 +56,6 @@ p {
     color: #000000;
     background-color: #ffffff;
 }
-/*------------------------------SOCIAL ICONS END---------------------------------*/
-
-
-
-
-
-/*---------------------------HEADER AND NAVIGATION START--------------------------*/
 
 .logo {
     display: block;
@@ -103,12 +95,6 @@ header {
     position: relative;
 }
 
-/*------------------------------HEADER AND NAVIGATION END--------------------------*/
-
-
-
-
-/*-----------------SOCIAL ICONS START-------------------------------------------*/
 .socialcenter {
     display: flex;
     justify-content: center;
@@ -133,13 +119,7 @@ header {
     color: #000000;
     background-color: #ffffff;
 }
-/*-----------------SOCIAL ICONS END-----------------------------------------------*/
 
-
-
-
-
-/*-------------------- FOOTER START -------------------------*/
 footer {
 text-align: center;
 padding: 25px 15px;
@@ -151,9 +131,6 @@ footer p {
     margin: 12px;
     font-size: .95rem;
 }
-/*-------------------- FOOTER END -------------------------*/
-
-
 
 /*--------------------------------------------------------GENERAL PAGE STYLE END -------------------------------------------------------------*/
 
@@ -168,7 +145,6 @@ footer p {
 
 #Rozvideo{
     width: 100%;
-    max-width:100%;
     height: auto;
     display: block;
 }
@@ -184,9 +160,9 @@ footer p {
 .ROZTitle h1 {
     font-size: clamp(20rem, 12vw, 8rem);
     color: #ffffff;
+    text-align: center;
     letter-spacing: 4px;
     text-shadow: 2px 2px 10px rgba(0,0,0,0.8);
-    font-family: Impact, Haettenschweiler, sans-serif;
 }
 
 h1 {
@@ -256,7 +232,6 @@ p {
     border-radius: 6px;
 
 }
-
 
 
 /*----------------------------------------------------------------------HOME PAGE END -------------------------------------------------------*/
