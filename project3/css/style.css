@@ -143,28 +143,27 @@ footer p {
 
 /*----------------------------------------------------------------------HOME PAGE START-----------------------------------------------------*/
 
-#Rozvideo{
+.Rozvideo {
     width: 100vw;
     height: 50vw;
     object-fit: cover;
     display: block;
 }
 
-.ROZTitle {
-    position:absolute;
-    top:50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.VidTitle {
+        position:absolute;
+        display: block;
+        top: 50%;
+        left: 50%;
+        transform:translate(-50%, -50%);  
 }
 
-.ROZTitle h1 {
+#ROZTitle {  
     font-size: 25vw;
-    color: #ffffff;
     text-align: center;
     letter-spacing: 4px;
     text-shadow: 2px 2px 10px rgba(0,0,0,0.8);
 }
-
 
 h1 {
     color: #ffffff;
@@ -377,10 +376,24 @@ p {
 
 /*------------------------------------------------------------- RESPONSIVE START ----------------------------------------------------------*/
 @media screen and (max-width: 800px) {
-    #Rozvideo {
+    .Rozvideo {
         width: 100%;
-
     }
+    .VidTitle {
+        position:absolute;
+        display: block;
+        top: 50%;
+        left: 50%;
+        transform:translate(-50%, -50%);  
+    }
+
+    #ROZTitle {  
+        font-size: 25vw;
+        text-align: center;
+        letter-spacing: 4px;
+        text-shadow: 2px 2px 10px rgba(0,0,0,0.8);
+    }
+
     .topnav{
         display: flex;
         flex-direction: column;
