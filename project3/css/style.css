@@ -143,24 +143,23 @@ footer p {
 
 /*----------------------------------------------------------------------HOME PAGE START-----------------------------------------------------*/
 
-.Rozvideo {
-    width: 100vw;
-    height: 50vw;
-    object-fit: cover;
-    display: block;
+
+#videobg {
+    position: flex;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
 }
 
-.VidTitle {
-        position:absolute;
-        display: block;
-        top: 50%;
-        left: 50%;
-        transform:translate(-50%, -50%);  
-}
 
-#ROZTitle {  
+#ROZTitle {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
     font-size: 25vw;
-    text-align: center;
     letter-spacing: 4px;
     text-shadow: 2px 2px 10px rgba(0,0,0,0.8);
 }
@@ -379,20 +378,13 @@ p {
     .Rozvideo {
         width: 100%;
     }
-    .VidTitle {
-        position:absolute;
-        display: block;
-        top: 50%;
-        left: 50%;
-        transform:translate(-50%, -50%);  
-    }
 
     #ROZTitle {  
         font-size: 25vw;
         text-align: center;
         letter-spacing: 4px;
         text-shadow: 2px 2px 10px rgba(0,0,0,0.8);
-    }
+}
 
     .topnav{
         display: flex;
