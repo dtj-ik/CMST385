@@ -146,8 +146,6 @@ footer p {
 #videoBg {
     width: 100vw;
     height: 50vw;
-    object-fit: cover;
-    display: block;
 }
 
 .VidTitle {
