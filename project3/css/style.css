@@ -148,6 +148,8 @@ footer p {
     left: 0;
     width: 100%;
     height: auto;
+    object-fit: cover;
+    display: block;
 }
 
 .VidTitle {
@@ -156,14 +158,13 @@ footer p {
     top: 50%;
     left:50%;
     transform: translate(-50%, -50%);
-     pointer-events: none;
+    pointer-events: none;
 }
 
 #ROZTitle {
     font-size: 25vw;
     letter-spacing: 4px;
     text-shadow: 2px 2px 10px rgba(0,0,0,0.8);
-   
 }
 
 h1 {
