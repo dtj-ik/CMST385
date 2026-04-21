@@ -144,17 +144,14 @@ footer p {
 /*----------------------------------------------------------------------HOME PAGE START-----------------------------------------------------*/
 
 #videoBg {
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: auto;
+    width: 100vw;
+    height: 50vw;
     object-fit: cover;
     display: block;
 }
 
 .VidTitle {
     position: absolute;
-    display: block;
     top: 50%;
     left:50%;
     transform: translate(-50%, -50%);
