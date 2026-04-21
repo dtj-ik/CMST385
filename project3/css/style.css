@@ -182,7 +182,7 @@ footer p {
 }
 
 .ROZTitle h1 {
-    font-size: 25vw;
+    font-size: clamp(20rem, 12vw, 8rem);
     color: #ffffff;
     letter-spacing: 4px;
     text-shadow: 2px 2px 10px rgba(0,0,0,0.8);
@@ -431,7 +431,7 @@ p {
     }
     
     .ROZTitle h1 {
-        font-size: 4rem;
+        font-size: 10rem;
     }
 
     #AboutRoz {
