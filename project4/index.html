@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head> 
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Home</title> 
+        <link rel="stylesheet" href="css/style.css"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    </head> 
+    <body class="wrapper"> 
+            <nav class="navbar"> 
+            <div class="nav-left"> 
+                <img src="images/cats_logo.png" alt="logo"> 
+                <div> 
+                    <h1 class="acronym">C.A.T.S</h1> 
+                    <p class="nameFull"><strong>Cats As Therapy & Support</strong></p> 
+                </div> 
+            </div> 
+            <div class="nav-links" id="myTopnav"> 
+                <a href="index.html" class="active">HOME</a> 
+                <a href="about.html">ABOUT</a>
+                <div class="dropdown"> 
+                    <a href="benefits.html" class="dropbtn">BENEFITS 
+                        <i class="fa fa-caret-down"></i> 
+                    </a> 
+                    <div class="dropdown-content"> 
+                        <a href="thescience.html">THE SCIENCE</a> 
+                        <p>TESTIMONIES</p> 
+                    </div> 
+                </div> 
+                <div class="dropdown"> 
+                    <a href="training.html" class="dropbtn">TRAINING 
+                        <i class="fa fa-caret-down"></i> 
+                    </a> 
+                    <div class="dropdown-content"> 
+                        <p>CERTIFICATION PROGRAMS</p> 
+                    </div> 
+                </div> 
+                <div class="dropdown"> 
+                    <a href="volunteer.html" class="dropbtn">VOLUNTEER 
+                        <i class="fa fa-caret-down"></i> 
+                    </a> 
+                    <div class="dropdown-content"> 
+                        <p>VOLUNTEER LISTINGS</p> 
+                    </div> 
+                </div> 
+                <div class="dropdown"> 
+                    <a href="resources.html" class="dropbtn">RESOURCES 
+                        <i class="fa fa-caret-down"></i> 
+                    </a> 
+                    <div class="dropdown-content"> 
+                        <a href="faqs.html">FAQs</a> 
+                        <p>PARTNERSHIP LIST</p> 
+                    </div> 
+                </div> 
+                    <a href="contact.html" id="contact">CONTACT</a> 
+                    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a> 
+            </div> 
+        </nav>
+        <section class="hero">
+            <div>
+                <img src="images/AdobeStock_328914227.jpg" class="hero-image">
+                <p class="credit">Photo Credit: Adobe Stock</p>
+                <div class="hero-content">
+                    <h1>Healing Begins With a Purr </h1>
+                    <p>Discover how therapy cats bring comfort, connection, and calm to those who need it most.</p>
+                    <a href="about.html" class="herobutton">Learn More</a> 
+                </div>
+            </div>     
+        </section>
+        <section class="mission">
+            <h2>Our Mission</h2>
+            <p>C.A.T.S. (Cats As Therapy & Support) is dedicated to promoting the healing power of feline companionship through education, volunteering, and community partnerships.</p>
+            <a href="volunteer.html" class="button1">Join Our Community</a>
+        </section>
+        <section class="news">
+            <h2>Lastest Cat News</h2>
+            <div class="story-grid">
+                <div class="news-image">
+                    <img src="images/counselling-cats-paw-1375792.jpg" alt="photo from pixabay of cat paw on human hand">
+                    <p class="credit">Photo Credit: Pixabay</p>
+                </div>
+                <div class="news-text">
+                    <h3>Feline therapy: Study suggests cats could fill an assistive niche</h3>
+                    <h4>“Cats chosen to engage in AAS seem to exhibit… high sociability and a willingness to engage with people.”</h4>
+                    <p>For years, therapy dogs have ruled the world of animal-assisted services (AAS), offering stress relief to college students, hospital patients, and those in need of emotional support. But new research suggests that some cats might also have what it takes to join the ranks of therapy animals -- bringing their purrs, gentle headbutts, and calm demeanor to the field.</p>
+                    <a href="https://www.sciencedaily.com/releases/2025/03/250318141255.htm" class="button2">Read More</a>
+                </div>
+            </div>
+        </section>
+        <section class="newsletter">
+            <h3>Stay connected - get updates from the C.A.T.S. community</h3>
+            <form action="https://formsubmit.co/YOUR_EMAIL@example.com" method="POST">
+                <input type="email" name="email" placeholder="Enter Your Email address">
+                <button type="submit">Subscribe</button>
+            </form>
+            <p>We respect your privacy. You can unsubscribe anytime.</p>
+        </section>
+        <footer class="footer">
+                <div class="footer-left">
+                    <p>Quick Links</p>
+                    <a href="index.html">Home |</a>
+                    <a href="training.html">Training |</a>
+                    <a href="volunteer.html">Volunteer</a>
+                </div>
+                <div class="footer-center">
+                    <p>© 2026 C.A.T.S.: Cats As Therapy & Support. All Rights Reserved.</p>
+                </div>
+                <div class="footer-right">
+                    <p>Accessibility Commitment | Privacy Policy</p>
+                    <p>Follow Us: [FB] [IG] [YT]</p>
+                </div>
+            </footer>
+                <script> 
+                    function myFunction() { 
+                        var x = document.getElementById("myTopnav");
+                        if (x.className === "nav-links") { 
+                            x.className += " responsive"; 
+                        } else { 
+                            x.className = "nav-links"; 
+                        } 
+                    } 
+                </script>
+    </body>
+</html>

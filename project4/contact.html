@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head> 
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Contact</title> 
+        <link rel="stylesheet" href="css/style.css"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    </head> 
+    <body class="wrapper"> 
+        <nav class="navbar"> 
+            <div class="nav-left"> 
+                <img src="images/cats_logo.png" alt="logo"> 
+                <div> 
+                    <h1 class="acronym">C.A.T.S</h1> 
+                    <p class="nameFull">Cats As Therapy & Support</p> 
+                </div> 
+            </div> 
+            <div class="nav-links" id="myTopnav"> 
+                <a href="index.html" class="active">HOME</a>
+                <a href="about.html">ABOUT</a> 
+                <div class="dropdown"> 
+                    <a href="benefits.html" class="dropbtn">BENEFITS 
+                        <i class="fa fa-caret-down"></i> 
+                    </a> 
+                    <div class="dropdown-content"> 
+                        <a href="thescience.html">THE SCIENCE</a> 
+                        <p>TESTIMONIES</p> 
+                    </div> 
+                </div> 
+                <div class="dropdown"> 
+                    <a href="training.html" class="dropbtn">TRAINING 
+                        <i class="fa fa-caret-down"></i> 
+                    </a> 
+                    <div class="dropdown-content"> 
+                        <p>CERTIFICATION PROGRAMS</p> 
+                    </div> 
+                </div> 
+                <div class="dropdown"> 
+                    <a href="volunteer.html" class="dropbtn">VOLUNTEER 
+                        <i class="fa fa-caret-down"></i> 
+                    </a> 
+                    <div class="dropdown-content"> 
+                        <p>VOLUNTEER LISTINGS</p> 
+                    </div> 
+                </div> 
+                <div class="dropdown"> 
+                    <a href="resources.html" class="dropbtn">RESOURCES 
+                        <i class="fa fa-caret-down"></i> 
+                    </a> 
+                    <div class="dropdown-content"> 
+                        <a href="faqs.html">FAQs</a> 
+                        <p>PARTNERSHIP LIST</p> 
+                    </div> 
+                </div> 
+                    <a href="contact.html" id="contact">CONTACT</a> 
+                    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a> 
+            </div> 
+        </nav> 
+        <section class="hero">
+            <div>
+                <img src="images/tumisu-smileys-5617876.jpg" class="hero-image" alt="emojis on paper">
+                <p class="credit">Photo Credit: Pixabay</p>
+                <div class="hero-content">
+                    <h1>We'd Love To Hear From You</h1>
+                    <p>Whether you want to volunteer, partner, or learn more about therapy cats, we're here to help.</p>
+                </div>
+            </div>     
+        </section>
+        <section class="contact-section">
+            <h2>Submit your feedback here!</h2>
+            <form class="feedback-form">
+                <label for="name">Name (Optional)</label>
+                <input type="text" id="name" name="name" placeholder="Your name">
+                <label for="email">Email (Optional)</label>
+                <input type="email" id="email" name="email" placeholder="Your email">
+                <label for="experience">Your experience</label>
+                <select id="experience" name="experience" required>
+                    <option value="">Select an Option</option>
+                    <option value="visitor">Website Visitor</option>
+                    <option value="volunteer">Volunteer</option>
+                    <option value="partner">Partner Organization</option>
+                    <option value="other">Other</option>
+                </select>
+                <label for="rating">How would you rate your experience?</label>
+                <select id="rating" name="rating" required>
+                    <option value="">Select rating</option>
+                    <option value="5">Excellent</option>
+                    <option value="4">Good</option>
+                    <option value="3">Average</option>
+                    <option value="2">Needs Improvement</option>
+                    <option value="1">Poor</option>
+                </select>
+                <label for="message">Your Feedback</label>
+                <textarea id="message" name="message" rows="5" placeholder="Share your thoughts..." required></textarea>
+                <label class="checkbox">
+                    <input type="checkbox" name="followup">I'd like to be contacted about my feedback
+                </label>
+                <button type="submit" class="button1">Submit Feedback</button>
+            </form>
+        </section>
+        <section class="us-section">
+            <h2>Our Information</h2>
+            <p>Prefer email? <br>Reach out to us directly at <a href="mailto:info@catssupport.org">info@catssupport.org</a></p>
+            <p>(111) 111-1111</p>
+            <p>1111 Cats As Therapy and Support Ave.<br>City, Ca, 11111</p>
+        </section>
+        <section class="accessibility-section">
+            <h2>Accessibility</h2>
+            <p>C.A.T.S is committed to digital accessibility. If you experience any issues with our website, please contact accessibility@catssupport.org</p>
+        </section>
+        <footer class="footer">
+                <div class="footer-left">
+                    <p>Quick Links</p>
+                    <a href="index.html">Home |</a>
+                    <a href="training.html">Training |</a>
+                    <a href="volunteer.html">Volunteer</a>
+                </div>
+                <div class="footer-center">
+                    <p>© 2026 C.A.T.S.: Cats As Therapy & Support. All Rights Reserved.</p>
+                </div>
+                <div class="footer-right">
+                    <p>Accessibility Commitment | Privacy Policy</p>
+                    <p>Follow Us: [FB] [IG] [YT]</p>
+                </div>
+            </footer>
+                <script> 
+                    function myFunction() { 
+                        var x = document.getElementById("myTopnav");
+                        if (x.className === "nav-links") { 
+                            x.className += " responsive"; 
+                        } else { 
+                            x.className = "nav-links"; 
+                        } 
+                    } 
+                </script>
+    </body>
+</html>
